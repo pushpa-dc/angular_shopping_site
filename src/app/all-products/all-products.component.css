@@ -1,0 +1,30 @@
+.title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.price {
+  color: blueviolet;
+  font-weight: 600;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+[nz-icon] {
+  color: #ffff !important;
+
+}
+
+button {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(295px,1fr));
+  grid-template-rows: 1fr;
+  padding: 0px 30px;
+}

@@ -1,0 +1,17 @@
+<div class="wrap">
+  <div class="card-wrapper" *ngFor="let product of products">
+    <div nz-card-grid [ngStyle]="gridStyle">
+      <a routerLink="product/{{product.id}}">
+        <div class="header">
+          <img src="{{product.img}}" alt="">
+        </div>
+        <div class="footer">
+          <h5 class="title">{{product.name}}</h5>
+          <h5 class="price">{{product.price | currency:'Rs.'}}</h5>
+        </div>
+      </a>
+      <button (click)="addToCart(product)" class="my-2 primary-bg text-white" nz-button>Add to cart<i nz-icon
+          nzType="primary" class="text-primary" nzType="shopping-cart"></i></button>
+    </div>
+  </div>
+</div>

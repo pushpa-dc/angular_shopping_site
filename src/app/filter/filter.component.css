@@ -1,0 +1,43 @@
+[nz-menu] {
+  width: 245px;
+}
+
+.color {
+  width: 25px;
+  border-radius: 50%;
+  height: 25px;
+  margin: 5px;
+}
+
+.color-list {
+  display: grid;
+  grid: 45% /auto auto auto auto;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.size-wrapper {
+  display: grid;
+  grid: 40px /auto auto auto auto auto;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  align-items: center;
+
+}
+
+.size {
+  padding: 20px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+

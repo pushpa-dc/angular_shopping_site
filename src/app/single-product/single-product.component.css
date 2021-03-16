@@ -1,0 +1,20 @@
+.singlepage{
+  border: 1px solid #faf7f7;
+}
+.singlepage i {
+  color: #ffffff !important;
+}
+
+.singlepage i:hover {
+  color: blue !important;
+}
+
+
+.ant-card-body {
+  width: 50% !important;
+}
+
+img {
+  width: 50%;
+  border: 1px solid #faf7f7;
+}

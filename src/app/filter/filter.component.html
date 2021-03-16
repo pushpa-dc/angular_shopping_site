@@ -1,0 +1,65 @@
+<div class="bg-white">
+  <div nz-row>
+    <div nz-col nzSpan="5" class="h-100">
+      <ul nz-menu nzMode="inline">
+        <li nz-submenu nzTitle="Categories" nzOpen>
+          <ul>
+            <li nz-menu-group nzTitle="">
+              <ul>
+                <li nz-menu-item nzSelected>Lifestyle</li>
+                <li nz-menu-item>Running</li>
+                <li nz-menu-item>Training & Gym</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li nz-submenu nzTitle="Price" nzOpen>
+          <ul>
+            <li nz-menu-group nzTitle="" class="border-top">
+              <ul>
+                <li nz-menu-item>
+                  <nz-slider nzRange [(ngModel)]="value2" [nzDisabled]="disabled"></nz-slider>
+                  Disabled:
+                  <nz-switch nzSize="small" [(ngModel)]="disabled"></nz-switch>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li nz-submenu nzTitle="Brand" nzOpen>
+          <ul>
+            <li nz-menu-group nzTitle="" class="border-top">
+              <ul>
+
+                <li nz-menu-item *ngFor="let checkbox  of check"><label nz-checkbox
+                    [(ngModel)]="checkbox.checked">{{checkbox.name}}</label></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li nz-submenu nzTitle="Color" nzOpen>
+          <ul>
+            <li nz-menu-group nzTitle="" class="border-top">
+              <ul class="d-flex flex-row color-list">
+                <div class="color" *ngFor="let item of list" [ngStyle]="{'background':item}"></div>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li nz-submenu nzTitle="Size" nzOpen>
+          <ul>
+            <li nz-menu-group nzTitle="" class="border-top">
+              <ul class="size-wrapper">
+                <div class="size" class="size" *ngFor="let size of size">{{size}}</div>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div nz-col nzSpan="19" class="my-2">
+      <router-outlet></router-outlet>
+      <app-pagination></app-pagination>
+    </div>
+  </div>
+</div>

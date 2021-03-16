@@ -1,0 +1,239 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import "~ng-zorro-antd/ng-zorro-antd.dark.css"; */
+/* @import "../node_modules/ng-zorro-antd/ng-zorro-antd.less"; */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;1,200&display=swap'); */
+
+body {
+  font-family: 'Poppins', Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.box-shadow {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+}
+
+.primary-bg {
+  background: #6179ff;
+}
+
+app-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.pagnation i {
+  color: blue;
+}
+
+
+.ant-badge-count {
+  background: #403ae4;
+  font-weight: 900;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+.px-2 {
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.mt-5 {
+  margin-top: 25px;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.text-white {
+  color: #ffff;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-50{
+  width: 50%;
+}
+
+.py-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 1000;
+}
+
+.py-5 {
+  padding: 25px 0px;
+}
+
+[nz-icon] {
+  font-size: 20px;
+}
+
+.py-1 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+nz-pagination{
+  margin: 15px 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.px-3 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+
+.ant-badge-count {
+  box-shadow: none;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.ant-breadcrumb-separator {
+  color: rgba(255, 255, 255, 0.77);
+}
+
+.banner-title span {
+  color: rgba(255, 255, 255, 0.77) !important
+}
+
+.banner-title a {
+  color: rgba(255, 255, 255, 0.77) !important
+}
+
+.wrapper {
+  margin: 0px 150px;
+  margin-top: -50px;
+}
+
+.ant-layout {
+  background-color: #ffff;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.my-btn {
+  background: linear-gradient(45deg, #f0f2f500, #ffffff00);
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  padding: 0px 25px;
+  height: 40px;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.my-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #dddddd;
+}
+
+.text-primary {
+  color: #6179ff !important;
+}
+
+.border-right {
+  border-right: 1px solid #dddddd;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #fff;
+}
+
+.ant-menu-submenu-selected {
+  color: #000000;
+  font-weight: 400;
+}
+.m-2{
+  margin: 30px;
+}
+.m-1{
+  margin: 15px;
+}
+
+.border-top {
+  border-top: 1px solid #dddddd;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+
+.bg:before {
+  content: "";
+  width: 9.9%;
+  background: #6f6dff;
+  height: 100px;
+  bottom: 0;
+  margin: -20px 0px;
+  position: absolute;
+  left: 0;
+}
+
+.bg::after {
+  content: "";
+  width: 9.9%;
+  background: #6f6dff;
+  height: 100px;
+  right: 0;
+  bottom: 0;
+  margin: -20px 0px;
+  position: absolute;
+}
+
+
+.bg {
+  width: 100%;
+  position: relative;
+}

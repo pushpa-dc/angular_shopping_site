@@ -1,0 +1,48 @@
+<div class="detail">
+  <nz-table #basicTable [nzData]="cartItems">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Product Detail</th>
+        <th>Remark</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of cartItems">
+        <td><img src="{{ data.img }}" alt=""></td>
+        <td>
+          <p>{{data.name}}</p>
+          <p>Rs {{data.price}}</p>
+        </td>
+        <td>
+          <p>Quantity : {{data.quantity}}</p>
+          <p>Subtotal :Rs. {{data.quantity * data.price}}</p>
+        </td>
+        <td>
+          <button class="mx-2" (click)="incrementQuantity(data)" nz-button nzType="primary" nzShape="square">
+            <i nz-icon nzType="plus" nzTheme="outline"></i>
+          </button>
+
+          <button nz-button nzType="primary" (click)="decrementQuantity(data)" nzShape="square" nzDanger>
+            <i nz-icon nzType="minus" nzTheme="outline">
+            </i>
+          </button>
+          <a nz-popconfirm nzPopconfirmTitle="Sure to delete?" (nzOnConfirm)="remove(data)">
+            <button nz-button nzType="primary" nzShape="square" nzDanger>
+              <i nz-icon nzType="delete" nzTheme="outline">
+              </i>
+            </button>
+          </a>
+        </td>
+      </tr>
+    </tbody>
+  </nz-table>
+  <nz-descriptions nzBordered nzLayout="vertical">
+    <nz-descriptions-item nzTitle="Total Info">
+      Total Quantity : {{totalQuantity}}
+      <br />
+      Total Price : {{totalPrice}}
+    </nz-descriptions-item>
+  </nz-descriptions>
+</div>

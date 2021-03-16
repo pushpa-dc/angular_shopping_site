@@ -1,0 +1,19 @@
+nz-badge {
+  margin-right: 20px;
+}
+
+.head-example {
+  color: white;
+}
+
+h3{
+  margin: 0px;
+}
+
+.ant-breadcrumb-separator {
+  margin: 0 8px;
+  color: rgba(255, 255, 255, 0.84);
+}
+[nz-icon]{
+  color: #ffffff;
+}

@@ -1,0 +1,6 @@
+<span *ngIf="totalPrice>0.00" class="text-white">
+Rs. {{totalPrice}}
+</span>
+<nz-badge [nzCount]="totalQuantity">
+  <a class="head-example" nzTheme="primary"><i nz-icon class="text-light" nzType="shopping-cart"></i></a>
+</nz-badge>

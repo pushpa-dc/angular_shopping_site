@@ -1,0 +1,17 @@
+.footer h5 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.footer h6 {
+  font-size: 16px;
+  color: #ffffffdd;
+  font-weight: 400;
+}
+.footer i {
+  font-size: 30px;
+  padding: 0px 10px 0px 0px;
+}

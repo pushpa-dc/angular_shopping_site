@@ -1,0 +1,24 @@
+.feature-new{
+  background: url('../../assets/img/2.jpg'),radial-gradient(transparent, #6179ff);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  padding: 5rem 2rem;
+}
+
+.new{
+  background-color: black;
+  color: white;
+  padding: 2px 10px
+}
+
+
+
+.feature-sale{
+  background: url(https://www.pngarts.com/files/4/Watch-PNG-Photo.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 50%;
+  padding: 5rem 2rem;
+}
+

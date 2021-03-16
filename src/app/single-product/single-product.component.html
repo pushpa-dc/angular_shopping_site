@@ -1,0 +1,11 @@
+<div class="m-1 p-3 d-flex singlepage bordered items-center" >
+  <img alt="example" [src]="productItem.img" />
+  <div class="m-2">
+
+    <h1>{{productItem.name}}</h1>
+    <h4 class="text-primary">Rs {{productItem.price}}</h4>
+    <button (click)="addToCart(productItem)" class="my-2 primary-bg text-white" nz-button>Add to cart<i nz-icon class="text-primary"
+        nzType="shopping-cart"></i></button>
+  </div>
+</div>
+
