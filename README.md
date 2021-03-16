@@ -34,6 +34,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Detail Page
 
-![Home page](https://github.com/pushpa-dc/angular_shopping_site/blob/master/src/assets/img/details.jpg?raw=true)
+![Home page](https://github.com/pushpa-dc/angular_shopping_site/blob/master/src/assets/img/detail.jpg?raw=true)
 
 
